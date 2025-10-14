@@ -1,3 +1,4 @@
+using MySql.Data.MySqlClient;
 public class Operacoes
 {
     private string connectionString = "";
