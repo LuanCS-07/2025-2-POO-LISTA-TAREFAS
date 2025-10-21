@@ -32,7 +32,7 @@ Console.WriteLine($"Tarefa com ID {idInserido} ALTERADA com sucesso!");
 
 
 Console.WriteLine("Testando metodo excluir:");
-int idParaExcluir = 61;
+int idParaExcluir = idInserido;
 operacoes.Excluir(idParaExcluir);
 Console.WriteLine($"Tarefa com ID {idParaExcluir} excluída com sucesso!");
 
